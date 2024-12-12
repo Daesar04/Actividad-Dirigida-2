@@ -14,6 +14,7 @@ if(!urlMongo) {
 }
 
 const client = new MongoClient(urlMongo);
+
 const dbName = 'vuelosComaniaAerea';
 
 await client.connect();
